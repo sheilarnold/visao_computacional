@@ -3,6 +3,9 @@
 Created on Sat Sep  5 20:28:54 2020
 
 @author: SheilaCarolina
+
+OBS: É necessário utilizar o corpus INRIA person, o corpus atual tem +- 1000 imagens para treinamento e 1000 imagens para testes, de imagens com e sem pessoas.
+    O ideal é que seja usado 100 imagens de cada tipo mas, se o computador não suportar tratar e carregar todas as imagens, 10 já são suficientes.
 """
 import cv2
 import os
